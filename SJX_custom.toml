@@ -1,0 +1,76 @@
+#SJX nonsense
+
+
+[info]
+key = "6h8y"
+description = "6 forward positions, 2 contra rotating coaxial rear rotors"
+
+[rotor_default]
+direction = "CW"
+axis      = [0.0, 0.0, -1.0]
+Ct        = 1.0
+Cm        = 0.05
+
+[[rotors]]
+name      = "Motor 1"
+position  = [0.2416289548964013, 0.5891522688445432, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name      = "Motor 2"
+position  = [0.2416289548964013, -0.5891522688445432, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name      = "Motor 3"
+position  = [0.24191694323324328, 0.4400452861441465, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name      = "Motor 4"
+position  = [0.24191694323324328, -0.4400452861441465, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name      = "Motor 5"
+position  = [0.24214272796269207, 0.26987248043249185, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name      = "Motor 6"
+position  = [0.24214272796269207, -0.26987248043249185, 0.0]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = .9264
+Cm        = .0117
+
+[[rotors]]
+name     = "Motor 7"
+position = [-.644.4, 0, 0.333]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = 1.0
+Cm        = 0.045
+
+[[rotors]]
+name     = "Motor 8"
+position = [-.644, 0, 0.241]
+axis      = [0.0, 0.0, -1.0]
+direction = "CW"
+Ct        = 1.0
+Cm        = 0.045
